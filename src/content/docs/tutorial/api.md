@@ -244,7 +244,7 @@ async findMany<T extends UserSubsetKey>(
 
 `runSubsetQuery`는 `subset`과 `params`를 이용하여 데이터베이스 조회 쿼리를 작성하고, 조회 결과를 반환합니다.
 
-`build` 함수는 `qb` 객체를 사용하여 실제 데이터베이스 조회에 이용되는 쿼리를 작성하는 함수입니다. `login_id` 필드를 추가하여, `login_id`로 회원을 조회할 수 있도록 합니다. 자세한 내용은 [모델 - runSubsetQuery](/reference/model#runsubsetquery)를 참고하세요.
+`build` 함수는 `qb` 객체를 사용하여 실제 데이터베이스 조회에 이용되는 쿼리를 작성하는 함수입니다. `login_id` 필드를 추가하여, `login_id`로 회원을 조회할 수 있도록 합니다. 자세한 내용은 [모델 - runSubsetQuery](/test-docs/reference/model#runsubsetquery)를 참고하세요.
 
 ### API 호출
 
@@ -275,12 +275,12 @@ Content-Type: application/json
 
 Sonamu는 findMany 메서드를 호출할 때, 기본적으로 `rows`와 `total` 필드를 반환합니다. `rows`는 조회된 데이터의 배열이며, `total`은 조회된 데이터의 총 개수입니다. `rows`만 반환하고 싶다면, `findMany` 메서드의 두 번째 인자로 `{ queryMode: "list" }`를 추가하면 됩니다.
 
-위 응답에서 서브셋A에 정의된 필드가 반환되는 것을 확인할 수 있습니다. 서브셋은 Sonamu UI의 `Entities` 화면에서 우측 하단에 있는 `Subsets` 테이블에서 설정할 수 있습니다. 서브셋과 관련된 내용은 [서브셋](/guide/subset)을 참고하세요.
+위 응답에서 서브셋A에 정의된 필드가 반환되는 것을 확인할 수 있습니다. 서브셋은 Sonamu UI의 `Entities` 화면에서 우측 하단에 있는 `Subsets` 테이블에서 설정할 수 있습니다. 서브셋과 관련된 내용은 [서브셋](/test-docs/guide/subset)을 참고하세요.
 
 ![User Subset](./image/api/user-subset.png)
 
 이처럼 Sonamu는 **`@api`** 데코레이터를 통한 API 등록을 지원하며, API를 호출하는 **프론트엔드 코드**와 API를 테스트하는 **HTTP 파일**을 자동으로 생성합니다.
 
 :::note
-SubsetQuery에 대한 설명은 [모델 - runSubsetQuery](/reference/model#runsubsetquery)에서, `@api` 데코레이터에 대한 설명은 [API 데코레이터](/reference/api-decorator)에서 확인할 수 있습니다.
+SubsetQuery에 대한 설명은 [모델 - runSubsetQuery](/test-docs/reference/model#runsubsetquery)에서, `@api` 데코레이터에 대한 설명은 [API 데코레이터](/test-docs/reference/api-decorator)에서 확인할 수 있습니다.
 :::

@@ -134,4 +134,4 @@ export default function PostWrite() {
 
 ## 마치며
 
-Sonamu가 생성한 프론트엔드 서비스 코드와 `@sonamu-kit`을 이용하여 아주 간단한 프론트엔드를 구현해보았습니다. 더 자세한 내용은 [@sonamu-kit 문서](/reference/sonamu-kit)를 참고하세요.
+Sonamu가 생성한 프론트엔드 서비스 코드와 `@sonamu-kit`을 이용하여 아주 간단한 프론트엔드를 구현해보았습니다. 더 자세한 내용은 [@sonamu-kit 문서](/test-docs/reference/sonamu-kit)를 참고하세요.

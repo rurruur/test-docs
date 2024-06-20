@@ -158,4 +158,4 @@ sonamu-tutorial_test__migration_shadow 삭제
 
 마이그레이션을 롤백하려면 `Migration Code Files` 테이블에서 적용할 데이터베이스를 선택하고 `Rollback` 버튼을 클릭합니다. 롤백은 트랜잭션 단위로 실행되기 때문에, 한 번에 여러 파일을 적용한 경우에는 롤백도 한 번에 실행됩니다.
 
-이 외에 마이그레이션에 대한 자세한 내용은 [마이그레이션](/reference/migration) 문서를 참고하세요.
+이 외에 마이그레이션에 대한 자세한 내용은 [마이그레이션](/test-docs/reference/migration) 문서를 참고하세요.

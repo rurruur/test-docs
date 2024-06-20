@@ -24,7 +24,7 @@ description: Sonamu 서버 설정
 프로젝트 루트에 `sonamu.config.json` 파일이 있어야 합니다.
 
 - `sync.targets`: 타입, 함수 등 코드를 동기화할 프로젝트를 명시합니다.
-  - 명시된 프로젝트의 구조는 [디렉터리 구조](/guides/)를 참고
+  - 명시된 프로젝트의 구조는 [디렉터리 구조](/test-docs/guides/)를 참고
 - `route.prefix`: API 엔드포인트에 프리픽스로 추가됩니다.
 
 ```json

@@ -3,13 +3,13 @@ title: 시작하기
 description: Sonamu를 사용하기 위한 기본 설정과 실행 방법을 설명합니다.
 ---
 
-Sonamu의 컨셉과 기본적인 사용법을 익히기 위한 튜토리얼입니다. 아직 [소개](/intro/)를 읽지 않았다면, 해당 문서를 통해 Sonamu의 기본 개념과 목적을 확인해보세요.
+Sonamu의 컨셉과 기본적인 사용법을 익히기 위한 튜토리얼입니다. 아직 [소개](/test-docs/intro/)를 읽지 않았다면, 해당 문서를 통해 Sonamu의 기본 개념과 목적을 확인해보세요.
 
 이 튜토리얼에서는 간단한 게시글 CRUD 로직을 작성하면서 엔티티 관리, 마이그레이션, 스캐폴딩, 모델 코드 작성 등 Sonamu의 기본적인 기능을 체험할 수 있습니다.
 
 ### 사전 설치
 
-Sonamu를 이용하기 위해서는 Node.js, Yarn, Docker Desktop, MySQL 클라이언트가 필요합니다. [사전 설치](/explanation/intro#사전-설치) 문서를 확인하세요.
+Sonamu를 이용하기 위해서는 Node.js, Yarn, Docker Desktop, MySQL 클라이언트가 필요합니다. [사전 설치](/test-docs/explanation/intro#사전-설치) 문서를 확인하세요.
 
 ### 첫 Sonamu 프로젝트
 
@@ -57,7 +57,7 @@ root
 
 ### DB 설정
 
-Sonamu UI의 기능을 사용하려면 Fixture 및 Test 데이터베이스 설정이 필요합니다. Fixture에 대한 자세한 내용은 [Fixture](/reference/fixture) 문서를 참고하세요.
+Sonamu UI의 기능을 사용하려면 Fixture 및 Test 데이터베이스 설정이 필요합니다. Fixture에 대한 자세한 내용은 [Fixture](/test-docs/reference/fixture) 문서를 참고하세요.
 
 Fixture 및 Test 데이터베이스 설정을 위해 api 디렉터리 내에서 다음 명령어를 실행하세요.
 
