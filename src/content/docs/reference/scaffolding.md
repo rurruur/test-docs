@@ -36,7 +36,7 @@ Sonamu는 엔티티, Enum 정의를 이용하여 모델, 테스트, 뷰 컴포�
 
 > 컨벤션 파일 경로: `/api/src/application/${entityId}/${entityId}.model.test.ts`
 
-아래의 형식으로 코드를 생성합니다. Sonamu의 테스트 작성 방법에 대한 내용은 [테스트](/test-docs/guide/test) 문서를 참고해주세요.
+아래의 형식으로 코드를 생성합니다. Sonamu의 테스트 작성 방법에 대한 내용은 [테스트](/guide/test) 문서를 참고해주세요.
 
 ```ts
 import { describe, test, expect } from "vitest";
@@ -98,6 +98,8 @@ describe.skip("${entityId}ModelTest", () => {
 ### Enum 스캐폴딩
 
 Enum 정의를 사용하여 뷰 컴포넌트를 생성합니다.
+
+-> 커스터마이징 가능하도록 해야 함
 
 ##### `view_enum_select`
 

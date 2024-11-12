@@ -9,11 +9,15 @@ description: A guide in my new Starlight docs site.
 
   - 18버전 이상의 Node.js가 설치되어 있어야 합니다.
 
-- yarn
+- yarn berry
 
-  - yarn이 global 설치되어 있어야 합니다.
+  - yarn을 설치합니다.
     ```shell
     npm i -g yarn
+    ```
+  - yarn berry로 설정합니다.
+    ```shell
+    yarn set version berry
     ```
 
 - Docker Desktop

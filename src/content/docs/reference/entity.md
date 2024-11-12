@@ -11,7 +11,7 @@ tableOfContents:
 > 컨벤션 파일 경로: `/api/src/application/${entityId}/${entityId}.entity.json`
 
 :::note
-Sonamu에서는 `id`와 `uuid` 컬럼이 엔티티마다 필수로 생성됩니다. `uuid` 컬럼은 엔티티 파일에 표시되지 않으며, 해당 컬럼을 사용하는 이유는 [모델 - UpsertBuilder](/test-docs/reference/model#upsertbuilder) 문서를 참고하세요.
+Sonamu에서는 `id`와 `uuid` 컬럼이 엔티티마다 필수로 생성됩니다. `uuid` 컬럼은 엔티티 파일에 표시되지 않으며, 해당 컬럼을 사용하는 이유는 [모델 - UpsertBuilder](/reference/model#upsertbuilder) 문서를 참고하세요.
 :::
 
 <br/>
@@ -47,7 +47,7 @@ Sonamu에서는 `id`와 `uuid` 컬럼이 엔티티마다 필수로 생성됩니�
 
 ### props
 
-각 필드를 정의하는 방법은 [엔티티 - 필드 정의](/test-docs/guide/entity#필드-정의) 문서를 참고하세요.
+각 필드를 정의하는 방법은 [엔티티 - 필드 정의](/guide/entity#필드-정의) 문서를 참고하세요.
 
 #### virtual
 
@@ -153,7 +153,7 @@ GraphQL에서는 프론트엔드에서 `서브셋을 쿼리`하는 개념이지�
   - 하위 객체의 id 외에 다른 필드를 추가하는 경우, `relation` 컬럼명의 객체로 포함됩니다.
 - 서브셋 이름에 따른 DB 사용
   - 서브셋 조회 쿼리는 기본적으로 읽기 전용 DB(slave)에서 실행되지만, 서브셋 이름이 `A`로 시작할 경우 쓰기 전용 DB(master)에서 조회합니다.
-  - [모델 - runSubsetQuery](/test-docs/reference/model#runsubsetquery) 문서를 참고하세요.
+  - [모델 - runSubsetQuery](/reference/model#runsubsetquery) 문서를 참고하세요.
 
 <br/>
 
