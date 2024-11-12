@@ -59,4 +59,6 @@ export default defineConfig({
       customCss: ["./src/styles/global.css"],
     }),
   ],
+  site: "https://rurruur.github.io",
+  base: "test-docs",
 });
